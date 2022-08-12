@@ -4,12 +4,13 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(165, 219, 210);
+    margin-top: 20px;
 }
 
 #canvas {
     display: grid;
-    width: 40vw;
-    height: 40vw;
+    width: 60vw;
+    height: 60vw;
 }
 
 .pixel {
