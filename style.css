@@ -7,10 +7,6 @@ body {
     text-align: center
 }
 
-.title {
-    text-align: ;
-}
-
 #canvas {
     display: grid;
     width: 60vw;
@@ -21,7 +17,8 @@ body {
     margin: 0;
     background-color: rgb(254, 254, 254);
     outline: 1px solid #cacaca;
-    border-radius: 5px;
+    border-radius: 1px;
+    margin: 0.5px;
 }
 
 .controls{
@@ -31,6 +28,11 @@ body {
 }
 
 #clear{
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
+    border: 1px solid #cacaca;
+}
+
+#clear:hover {
+    background-color: #dbdbdb;
 }
