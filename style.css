@@ -1,10 +1,14 @@
 body {
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(165, 219, 210);
-    margin-top: 20px;
+    background-color: #dceae8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center
+}
+
+.title {
+    text-align: ;
 }
 
 #canvas {
@@ -16,12 +20,17 @@ body {
 .pixel {
     margin: 0;
     background-color: rgb(254, 254, 254);
-    outline: 1px solid rgb(111, 111, 111);
-    border-radius: 1px;
+    outline: 1px solid #cacaca;
+    border-radius: 5px;
 }
 
 .controls{
     display: flex;
     justify-content: space-between;
     padding: 2vw 0;
+}
+
+#clear{
+    height: 50px;
+    border-radius: 10px;
 }

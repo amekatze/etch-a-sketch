@@ -9,7 +9,7 @@ canvas.innerHTML = "";
      div.classList.add('pixel');
      canvas.appendChild(div);
      div.addEventListener('mouseover', () =>{
-     div.style.setProperty('background-color', 'rgb(178, 178, 178)');
+     div.style.setProperty('background-color', 'rgb(177, 200, 206)');
     })
     } canvas.style.setProperty('grid-template-columns', `repeat(${grid}, 1fr)`);
 }
