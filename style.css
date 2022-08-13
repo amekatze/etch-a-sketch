@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #dedede;
+    background-color: #595959;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
 }
 
 .container {
@@ -14,6 +22,9 @@ body {
 #canvas {
     display: grid;
     aspect-ratio : 1 / 1;
+    border: 2em solid rgb(37, 116, 121);
+    border-radius: 3%;
+    box-shadow: 0 0 20px 2px rgb(46, 46, 46);
 }
 
 .pixel {
@@ -27,9 +38,12 @@ body {
 .controls{
     display: flex;
     justify-content: space-between;
-    margin-top: 5vh;
+    margin: 5vh 0 2vh 0;
 }
 
+.controls p {
+    font-size: 0.9em;
+}
 .buttons{
     display: flex;
     justify-content: flex-end;

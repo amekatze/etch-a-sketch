@@ -40,7 +40,9 @@ function colorPick(){
     pixelColor == 'rgb(128, 128, 128)' ? 'rgb(105, 105, 105)' : 
     pixelColor == 'rgb(105, 105, 105)' || pixelColor == 'rgb(76, 76, 76)' ? 'rgb(76, 76, 76)' : 'rgb(192, 192, 192)';
     } else if (color == 'random'){rgb = `rgb(${(Array.from({length: 3}, () => Math.floor(Math.random() * 255)))})`
-    } 
+    } else if (color == 'black'){
+    rgb = 'rgb(76, 76, 76)';
+    } else { rgb = 'rgb(255, 255, 255)'}
     return rgb;
     }
 
@@ -55,6 +57,9 @@ canvasSize.oninput = function() {
 document.getElementById('clear').onclick = function(){createCanvas()};
 document.getElementById('random').onclick = function(){
     color = 'random';};
-
-document.getElementById('black').onclick = function(){
+document.getElementById('grayscale').onclick = function(){
     color = 'standard';};
+document.getElementById('black').onclick = function(){
+        color = 'black';};
+document.getElementById('erase').onclick = function(){
+            color = 'white';};
