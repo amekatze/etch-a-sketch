@@ -30,9 +30,8 @@ body {
 .pixel {
     margin: 0;
     background-color: rgb(255,255,255);
-    outline: 1px solid #cacaca;
+    outline: 0.1px solid #b4b4b47e;
     border-radius: 1px;
-    margin: 0.5px;
 }
 
 .controls{
